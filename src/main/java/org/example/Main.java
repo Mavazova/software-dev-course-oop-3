@@ -93,7 +93,7 @@ public class Main {
     public static void readBooks() {
         for (LibraryItem item : library) {
             if (item instanceof Book) {
-                ((Book) item).readBook();
+                ((Book) item).readBooks();
             }
         }
     }
